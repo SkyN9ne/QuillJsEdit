@@ -31,7 +31,8 @@ Instantiate a new Quill object with a `css` selector for the `div` that should b
 
 ```html
 <!-- Include Quill stylesheet -->
-<link href="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.snow.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.snow.css"
+rel="stylesheet" />
 
 <!-- Create the toolbar container -->
 <div id="toolbar">
