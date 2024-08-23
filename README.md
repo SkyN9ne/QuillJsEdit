@@ -7,9 +7,9 @@
 <p align="center">
   <a title="Documentation" href="https://quilljs.com/docs/quickstart"><strong>Documentation</strong></a>
   &#x2022;
-  <a title="Development" href="https://github.com/slab/quill/blob/main/.github/DEVELOPMENT.md"><strong>Development</strong></a>
+  <a title="`DEVELOPMENT.md`" href="https://github.com/slab/quill/blob/main/.github/DEVELOPMENT.md"><strong>`DEVELOPMENT.md`</strong></a>
   &#x2022;
-  <a title="Contributing" href="https://github.com/slab/quill/blob/main/.github/CONTRIBUTING.md"><strong>Contributing</strong></a>
+  <a title="`CONTRIBUTING.md`" href="https://github.com/slab/quill/blob/main/.github/CONTRIBUTING.md"><strong>`CONTRIBUTING.md`</strong></a>
   &#x2022;
   <a title="Interactive Playground" href="https://quilljs.com/playground/"><strong>Interactive Playground</strong></a>
 </p>
@@ -21,20 +21,17 @@
 
 <hr/>
 
-[Quill](https://quilljs.com/) is a modern rich text editor built for compatibility and extensibility. It was created by [Jason Chen](https://twitter.com/jhchen) and [Byron Milligan](https://twitter.com/byronmilligan) and actively maintained by [Slab](https://slab.com).
+[QuillJs](https://quilljs.com/) is a modern rich-text editor built for compatibility and extensibility. It was created by [Jason Chen](https://twitter.com/jhchen) and [Byron Milligan](https://twitter.com/byronmilligan) and actively maintained by [`Slab`](https://slab.com).
 
 To get started, check out [https://quilljs.com/](https://quilljs.com/) for documentation, guides, and live demos!
 
 ## Quickstart
 
-Instantiate a new Quill object with a css selector for the div that should become the editor.
+Instantiate a new Quill object with a `css` selector for the `div` that should become the editor.
 
 ```html
 <!-- Include Quill stylesheet -->
-<link
-  href="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.snow.css"
-  rel="stylesheet"
-/>
+<link href="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.snow.css" rel="stylesheet" />
 
 <!-- Create the toolbar container -->
 <div id="toolbar">
@@ -54,51 +51,42 @@ Instantiate a new Quill object with a css selector for the div that should becom
 
 <!-- Initialize Quill editor -->
 <script>
-  const quill = new Quill("#editor", {
+const quill = new Quill("#editor", {
     theme: "snow",
   });
 </script>
 ```
 
-Take a look at the [Quill](https://quilljs.com/) website for more documentation, guides and [live playground](https://quilljs.com/playground/)!
+Take a look at the [QuillJs](https://quilljs.com/) website for more documentation, guides and a [live playground](https://quilljs.com/playground/)!
 
-## Download
+## Downloading
 
 ```shell
 npm install quill
 ```
 
-### CDN
+## Using a CDN
 
 ```html
 <!-- Main Quill library -->
 <script src="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.js"></script>
 
 <!-- Theme included stylesheets -->
-<link
-  href="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.snow.css"
-  rel="stylesheet"
-/>
-<link
-  href="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.bubble.css"
-  rel="stylesheet"
-/>
+<link href="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.snow.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.bubble.css" rel="stylesheet" />
 
 <!-- Core build with no theme, formatting, non-essential modules -->
-<link
-  href="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.core.css"
-  rel="stylesheet"
-/>
+<link href="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.core.css" rel="stylesheet" />
 <script src="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.core.js"></script>
 ```
 
-## Community
+### Community
 
 Get help or stay up to date.
 
-- [Contribute](https://github.com/slab/quill/blob/main/.github/CONTRIBUTING.md) on [Issues](https://github.com/slab/quill/issues)
-- Ask questions on [Discussions](https://github.com/slab/quill/discussions)
+* [`CONTRIBUTING.md`](https://github.com/slab/quill/blob/main/.github/CONTRIBUTING.md) on [Issues](https://github.com/slab/quill/issues)
+* Ask questions on [Discussions](https://github.com/slab/quill/discussions)
 
-## License
+#### License
 
 BSD 3-clause
