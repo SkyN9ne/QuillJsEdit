@@ -70,7 +70,8 @@ npm install quill
 
 ```html
 <!-- Main Quill library -->
-<script src="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.js">
+</script>
 
 <!-- Theme included stylesheets -->
 <link href="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.snow.css" rel="stylesheet" />
@@ -78,7 +79,8 @@ npm install quill
 
 <!-- Core build with no theme, formatting, non-essential modules -->
 <link href="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.core.css" rel="stylesheet" />
-<script src="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.core.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.core.js">
+</script>
 ```
 
 ### Community
@@ -89,5 +91,5 @@ Get help or stay up to date.
 * Ask questions on [Discussions](https://github.com/slab/quill/discussions)
 
 #### License
-
+------------
 BSD 3-clause
