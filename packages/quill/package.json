@@ -40,7 +40,7 @@
     "highlight.js": "^9.18.1",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.3",
-    "jsdom": "^22.1.0",
+    "jsdom": "^25.0.0",
     "mini-css-extract-plugin": "^2.7.6",
     "prettier": "^3.0.3",
     "source-map-loader": "^5.0.0",
